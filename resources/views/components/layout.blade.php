@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-sacele=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }} - Controle de Series</title>
-    <link rel="stylesheet" href="/css/app.css">
+    @vite(['resources/js/app.js'])
 </head>
 <body>
 <h1>{{ $title }}</h1>
