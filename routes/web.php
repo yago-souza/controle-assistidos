@@ -23,3 +23,5 @@ Route::get('/series/criar', [SeriesController::class, 'create']);
 Route::get('/teste', function () {
     return view('teste');
 });
+Route::post('/series/salvar', [SeriesController::class, 'store']);
+
