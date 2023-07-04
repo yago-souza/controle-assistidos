@@ -10,6 +10,7 @@ class SeriesController extends Controller
 {
     public function index()
     {
+        $_GET
         #$series = DB::select('SELECT nome FROM series;');
         $series = Serie::query()->orderBy('nome')->get();
 
